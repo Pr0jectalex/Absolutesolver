@@ -5,9 +5,9 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddParagraph("What is this?","Hi this is my own script hub, Absolutesolver. I made it because I can put whatever I want in it.")
-Tab:AddParagraph("what are the scripts?","Anything I want, jackass.")
-Tab:AddParagraph("Are they universal","Yes there is a tab for universal things")
+Welcome!:AddParagraph("What is this?","Hi this is my own script hub, Absolutesolver. I made it because I can put whatever I want in it.")
+Welcome!:AddParagraph("what are the scripts?","Anything I want, jackass.")
+Welcome!:AddParagraph("Are they universal","Yes there is a tab for universal things")
 local Tab = Window:MakeTab({
 
 
@@ -15,14 +15,14 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddButton({
+Universal:AddButton({
 	Name = "Nameless admin",
 	Callback = function(loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();)
       		print("button pressed")
   	end    
 })
 
-Tab:AddButton({
+Universal:AddButton({
 	Name = "Invisible tool",
 	Callback = function(local offset = 1100
 local invisible = game.Players.LocalPlayer
@@ -148,7 +148,7 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddButton({
+chaos:AddButton({
 	Name = "TSS CHAOS. may close this window.",
 	Callback = function()
       		print("button pressed")
@@ -159,7 +159,7 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddParagraph("Maker"," Pr0jectAlex")
-Tab:AddParagraph("Thanks","Orion Library")
-
+Credits:AddParagraph("Maker"," Pr0jectAlex")
+Credits:AddParagraph("Thanks","Orion Library")
+end
 OrionLib:Init()
